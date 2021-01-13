@@ -1,7 +1,5 @@
 # init.te
 
-allow init kernel:system module_request;
-
 allow init tmpfs:lnk_file create;
 
 allow init efs_file:dir mounton;
