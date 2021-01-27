@@ -157,7 +157,7 @@ TARGET_LD_SHIM_LIBS += \
     /vendor/lib64/libsensorlistener.so|libshim_sensorndkbridge.so
 
 ### SEPOLICY
-include device/lineage/sepolicy/exynos/sepolicy.mk
+include device/rr/sepolicy/exynos/sepolicy.mk
 
 BOARD_SEPOLICY_TEE_FLAVOR := teegris
 include device/samsung_slsi/sepolicy/sepolicy.mk
